@@ -1,0 +1,30 @@
+{
+  "setting": {
+    "newFeature": true,
+    "urlCheck": true,
+    "es6": false,
+    "postcss": true,
+    "minified": false,
+    "checkSiteMap": false,
+    "autoAudits": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "appid": "wxd98a20e429ce834b",
+  "projectname": "windidemo",
+  "description": "A mpx project",
+  "condition": {},
+  "compileType": "miniprogram",
+  "libVersion": "2.30.3",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

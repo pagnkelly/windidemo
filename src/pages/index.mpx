@@ -1,0 +1,22 @@
+<template>
+  <list></list>
+  <view class="py-6 bg-black h-4"></view>
+</template>
+
+<script>
+import { createPage } from '@mpxjs/core'
+
+createPage({
+  onLoad() {
+    //
+  }
+})
+</script>
+
+<script type="application/json">
+  {
+    "usingComponents": {
+      "list": "../components/list"
+    }
+  }
+</script>
