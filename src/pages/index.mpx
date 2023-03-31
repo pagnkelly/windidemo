@@ -1,6 +1,9 @@
 <template>
   <list></list>
   <view class="py-6 bg-black h-4"></view>
+  <view class="dark">
+    <view class="text-red-400 dark:text-green-400"> dwdwdw我对我的味道</view>
+  </view>
 </template>
 
 <script>

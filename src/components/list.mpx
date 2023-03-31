@@ -1,5 +1,5 @@
 <template>
-  <view class="list py-6">
+  <view class="list">
     <view wx:for="{{listData}}" wx:key="*this">{{item}}</view>
   </view>
 </template>
@@ -8,6 +8,9 @@
 import { createComponent } from '@mpxjs/core'
 
 createComponent({
+  options: {
+    styleIsolation: 'apply-shared'
+  },
   data: {
     listData: ['手机', '电视', '电脑']
   }

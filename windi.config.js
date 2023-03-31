@@ -1,3 +1,4 @@
 module.exports = {
-  presets: ['@mpxjs/windicss-base']
+  presets: ['@mpxjs/windicss-base'],
+  darkMode: 'class'
 }
