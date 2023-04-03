@@ -1253,10 +1253,10 @@
     webpack-chain "^6.5.1"
     webpack-merge "^5.8.0"
 
-"@mpxjs/webpack-plugin@^2.8.28-beta.1":
-  version "2.8.28-beta.1"
-  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@mpxjs/webpack-plugin/-/webpack-plugin-2.8.28-beta.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40mpxjs%2Fwebpack-plugin%2F-%2Fwebpack-plugin-2.8.28-beta.1.tgz#7b0a8421945c377bda36221b8751fe2e691c7552"
-  integrity sha1-ewqEIZRcN3vaNiIbh1H+LmkcdVI=
+"@mpxjs/webpack-plugin@2.8.28-beta.3":
+  version "2.8.28-beta.3"
+  resolved "https://registry.npmmirror.com/@mpxjs/webpack-plugin/-/webpack-plugin-2.8.28-beta.3.tgz#5ff587aebbed7ef63559ba7712cf249a90b13e33"
+  integrity sha512-KYzMafBvZ0E3VacfucWuWK6VxvVSDF+Gfvroj2a6C1YRay5UbTOD5s7YTY3WfY/9UzFf2zCbt33LhDrNeu12Mw==
   dependencies:
     "@babel/code-frame" "^7.16.0"
     "@babel/generator" "^7.16.0"
@@ -1305,11 +1305,12 @@
   resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@mpxjs/windicss-base/-/windicss-base-2.8.28-beta.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40mpxjs%2Fwindicss-base%2F-%2Fwindicss-base-2.8.28-beta.1.tgz#1856770345813c50133e94ed1496da60135e3928"
   integrity sha1-GFZ3A0WBPFATPpTtFJbaYBNeOSg=
 
-"@mpxjs/windicss-plugin@^2.8.28-beta.1":
-  version "2.8.28-beta.1"
-  resolved "http://artifactory.intra.xiaojukeji.com/artifactory/api/npm/npm/@mpxjs/windicss-plugin/-/windicss-plugin-2.8.28-beta.1.tgz?dl=https%3A%2F%2Fregistry.npmmirror.com%2F%40mpxjs%2Fwindicss-plugin%2F-%2Fwindicss-plugin-2.8.28-beta.1.tgz#ffbbacdcd18a1287439cfaec025dc137e7dae953"
-  integrity sha1-/7us3NGKEodDnPrsAl3BN+fa6VM=
+"@mpxjs/windicss-plugin@2.8.28-beta.3":
+  version "2.8.28-beta.3"
+  resolved "https://registry.npmmirror.com/@mpxjs/windicss-plugin/-/windicss-plugin-2.8.28-beta.3.tgz#cefe9ed6bbdca6d1c5d7bbdf16b6b70c782ab0d5"
+  integrity sha512-zzjFNSOFgIonTUWd6LzIt+Fbe6OxDXPwXq+vGaeY5PwTdheDx2C3QImYEtb09X1IH25w+BuTeGusg136N+6sNg==
   dependencies:
+    "@windicss/config" "^1.8.10"
     windicss "^3.5.6"
 
 "@node-ipc/js-queue@2.0.3":
