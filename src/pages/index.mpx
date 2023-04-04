@@ -15,8 +15,8 @@
   <button class="appearance-none"> 按钮 </button>
   <view class="text-size-2xl">Cursor(不支持)</view>
   <view class="cursor-wait bg-red-500"> 按钮 </view>
-  <view class="text-size-2xl">Caret(支持)</view>
-  <input class="caret-red-500 m-3 border border-solid border-gray-500 p-2" />
+  <view class="text-size-2xl">Caret(不支持)</view>
+  <input class="caret-red-500 caret-opacity-30 m-3 border border-solid border-gray-500 p-2" />
   <view class="text-size-2xl">Pointer Events(支持)</view>
   <view>
     <view bindtap="changePointerEvents('none')">none</view>
