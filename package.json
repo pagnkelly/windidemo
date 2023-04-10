@@ -7,7 +7,8 @@
     "build": "mpx-cli-service build:mp",
     "lint": "eslint --ext .js,.ts,.mpx src/",
     "build:web": "mpx-cli-service build:web",
-    "serve:web": "mpx-cli-service serve:web"
+    "serve:web": "mpx-cli-service serve:web",
+    "analysis": "windicss-analysis"
   },
   "dependencies": {
     "@mpxjs/api-proxy": "^2.8.0",
@@ -47,7 +48,8 @@
     "stylus": "^0.55.0",
     "stylus-loader": "^6.1.0",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^5.43.0"
+    "webpack": "^5.43.0",
+    "windicss-analysis": "^0.3.5"
   },
   "browserslist": "ios >= 8, chrome >= 47"
 }

@@ -3,6 +3,7 @@
   <view class="{{darkMode ? 'dark' : ''}}">
     <view class="text-red-400 dark:text-green-400">{{ darkMode ? 'dark' : 'light' }}模式</view>
     <view bindtap="darkTap">{{ darkMode ? '🌛' : '🌞' }}</view>
+    <list />
   </view>
   <view class="text-size-4xl">Interactivity</view>
   <view class="text-size-2xl">Accent-color(不支持)</view>
