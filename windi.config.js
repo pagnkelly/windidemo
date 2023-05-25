@@ -5,5 +5,6 @@ module.exports = {
     ]
   },
   presets: ['@mpxjs/windicss-base'],
-  darkMode: 'class'
+  darkMode: 'class',
+  preflight: true
 }

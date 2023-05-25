@@ -1,5 +1,5 @@
 <template>
-  <view class="list">
+  <view class="list {{ true ? 'p-10' : 'p-9' }}">
     <view class="text-red-400 dark:text-green-400" wx:for="{{listData}}" wx:key="*this">{{item}}</view>
   </view>
 </template>
@@ -15,9 +15,8 @@ createComponent({
 })
 </script>
 
-<style lang="stylus">
-  .list
-    background-color red
+<style>
+  @apply text-center my-0 font-medium;
 </style>
 
 <script type="application/json">
